@@ -1,2 +1,2 @@
 # ph-rast.github.io
-Rastlab Webpage
+Rastlab Website
