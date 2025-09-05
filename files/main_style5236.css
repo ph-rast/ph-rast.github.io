@@ -167,7 +167,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-mini-cart .wsite-product-list .wsite-list-image-container { margin: 0; }
  #wsite-mini-cart .wsite-items-right { width: 22%; }
  #wsite-mini-cart .wsite-items-quantity { width: 10%; text-align: center; }
- #wsite-mini-cart .wsite-vertical-align { padding-top: 10px; padding-bottom: 10px; vertical-align: top; }
+.wsite-vertical-align { vertical-align: top; }
+#wsite-mini-cart .wsite-vertical-align { padding-top: 10px; padding-bottom: 10px; }
  #wsite-mini-cart .wsite-product-list .wsite-product-price, #wsite-mini-cart .wsite-items-quantity, #wsite-mini-cart .wsite-name-header, #wsite-mini-cart .wsite-subtotal-wrapper, #wsite-mini-cart .wsite-subtotal-wrapper * { color: #000000; font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 500; text-transform: uppercase; line-height: 1.25; }
  #wsite-mini-cart .wsite-product-list .wsite-product-price { padding-right: 0; }
  #wsite-mini-cart .wsite-product-option { font-family: 'Birdseye', sans-serif; font-size: 12px; font-weight: 500; }
@@ -319,3 +320,5 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+.wsite-multicol-table .wsite-multicol-col { vertical-align: top; }
